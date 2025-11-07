@@ -5,4 +5,58 @@
 
 /* Seção de destaque principal com imagem de fundo */
 
-/* Continuar digitação (deste ponto) */
+.destaque {
+    background-image: url(../imagens/fundo-destaque.jpg);
+    background-size: cover;
+    background-attachment: fixed; /* Efeito Parallax (na imagem) */
+    height: 90vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destaque h2 {
+    /* Fonte responsiva */
+    font-size: clamp(2rem, 8vw, 7rem);
+    animation: fadeIn 1.5s; /* Animação */
+}
+
+.destaque p {
+    /* Fonte responsiva */
+    font-size: clamp(1.6rem, 2vw, 4rem);
+    animation: fadeIn 1.5s 1s backwards; /* Animação com atraso */
+}
+/* Animação (Programação) */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Seções de conteúdo */
+.front-end,
+.localizacao {
+    text-align: center;
+    padding: 1rem, 0;
+}
+
+/* Seção história (Vídeo youtube) */
+.historia {
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.historia h2 {
+    color: white;
+    box-shadow: #000 1px 1px 2px;
+    padding-bottom: 1rem;
+}
+
+.historia iframe {
+    max-width: 800px;
+    width: 100%;
+}

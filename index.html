@@ -1,1 +1,101 @@
-<!-- Digitar aqui (index.html) -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplify - A porta do desenvolvimento web</title>
+
+    <!-- Ícone exibido na aba do navegador -->
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+    <!-- Metadados para SEO -->
+    <meta name="description" content="Simplify - A porta do desenvolvimento web">
+    <meta name="keywords" content="front-end, html, css, js">
+
+    <!-- Link para CSS (Estilos) -->
+    <!-- Global -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Estilo da página (Home) -->
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <!-- Header (Menu de navegação) -->
+    <header>
+        <div class="limitador">
+            <!-- logo -->
+             <h1><a href="index.html" title="Página inicial">Simplify</a></h1>
+
+            <!-- Menu de navegação  -->
+             <nav>
+                <ul class="menu">
+                    <li><a href="index.html" title="Página inicial">Home</a></li>
+                    <li><a href="produtos.html" title="Página de produtos">Produtos</a></li>
+                    <li><a href="servicos.html" title="Página de serviços">Serviços</a></li>
+                    <li><a href="contato.html" title="Página de contato">Contato</a></li>
+                </ul>
+             </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Seção de destaque -->
+         <section class="destaque">
+            <div>
+                <h2>HTML5 e CSS3</h2>
+                <p>A porta de entrada para o desenvolvimento web</p>
+            </div>
+         </section>
+
+         <!-- Seção sobre (Front-End) -->
+          <section class="limitador front-end">
+            <h2>Desenvolvedor Front-End</h2>
+            <p>O desenvolvedor Front-End cuida do código interpretado pelo <i>browser</i>.</p>
+            <p>No desenvolvimento por camadas,
+                <abbr title="HyperText Markup Language">HTML</abbr> é responsável por estruturar o conteúdo,
+                <abbr title="Cascading Style Sheets">CSS</abbr> cuida dos estilos visuais e o JS da interatividade. 
+            </p>
+
+            <!-- Imagem ilustrativa -->
+             <figure>
+                <img src="imagens/linguagens.png" alt="HTML, CSS e JS">
+             </figure>
+
+          </section>
+
+          <!-- Seção com o vídeo do Youtube -->
+
+          <section class="historia">
+            <h2>História da Internet</h2>
+            <iframe height="315" src="https://www.youtube.com/embed/jlkvzcG1UMk" title="Youtube video"
+            allow="accelerometer; autoplay;" allowfullscreen></iframe>
+
+          </section>
+
+          <!-- Mapa -->
+           <section class="localizacao">
+
+                <h2>Localização</h2>
+                <p>
+                    Av Santos Dumont, 300 <br>
+                    Ipiranguinha <br>
+                    Santo André/SP
+                </p>
+
+                <p>Telefone: (11) 3322-0050 - E-mail: santoandre@sp.senai.br</p>
+
+                <!-- Mapa (Google Maps) -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.0778612608938!2d-46.53876872483993!3d-23.63738247874771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42bea5555555%3A0x304c99916fe0aa3f!2sSesi%20Santo%20Andr%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1762526377886!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+           </section>
+
+        </main>
+
+        <!-- Rodapé -->
+         <footer>
+             <p>Simplify é um site fictício desenvolvido no Senai/Sesi © - Alguns Direitos Reservados - 2025</p>
+         </footer>
+    
+</body>
+</html>
